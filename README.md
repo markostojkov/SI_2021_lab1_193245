@@ -10,3 +10,7 @@ git branch branch2
 git checkout branch1
 git add -A
 git commit -m "Add 5 words"
+git add -A
+git commit -m "Add 6 words"
+git push -u origin branch1
+
