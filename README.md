@@ -13,4 +13,6 @@ git commit -m "Add 5 words"
 git add -A
 git commit -m "Add 6 words"
 git push -u origin branch1
-
+git checkout branch2
+git add -A
+git commit -m "Add numbers from 10-15"
