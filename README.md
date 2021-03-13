@@ -16,3 +16,10 @@ git push -u origin branch1
 git checkout branch2
 git add -A
 git commit -m "Add numbers from 10-15"
+git checkout master
+git merge branch1
+git add -A
+git commit -m "Add numbers from 10-15"
+git merge branch2
+git pull
+git push -u origin master
